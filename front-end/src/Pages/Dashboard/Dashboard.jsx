@@ -6,7 +6,7 @@ import './Dashboard.css';
 const Dashboard = () => {
   return (
     <>
-      <h1>Dashboard Overview</h1>
+      <div className='dashborad-heading'>Dashboard Overview</div>
 
       <div className="parent1">
 
