@@ -1,0 +1,83 @@
+.em-heading{
+    font-weight: bold;
+    font-size: 50px;
+}
+.em-header{
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.search-input {
+  width: 250px;
+  height: 40px;
+  border-radius: 6px;
+}
+
+.add-btn {
+  background-color: #1a2321;
+  color: #ffffff;
+  border: none;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.employee-table {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Action Buttons Container */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+/* Button Styles
+.view-btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+}
+
+.edit-btn {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+}
+
+.salary-btn {
+  background-color: #f1c40f;
+  color: #000;
+  border: none;
+}
+
+.leave-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+} */
+
+/* Hover Effects */
+/* .view-btn:hover {
+  background-color: #2980b9 !important;
+  color: #fff !important;
+}
+
+.edit-btn:hover {
+  background-color: #27ae60 !important;
+  color: #fff !important;
+}
+
+.salary-btn:hover {
+  background-color: #d4ac0d !important;
+  color: #000 !important;
+}
+
+.leave-btn:hover {
+  background-color: #c0392b !important;
+  color: #fff !important;
+} */

@@ -1,3 +1,7 @@
+.dashborad-heading{
+  font-weight: bold;
+  font-size: 50px;
+}
 .parent1 {
   margin-top: 20px;
   display: flex;
