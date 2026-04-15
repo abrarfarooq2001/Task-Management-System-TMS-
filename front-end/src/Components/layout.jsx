@@ -10,7 +10,7 @@ const Layout = ({children}) => {
   return (
     <>
       <div className='main-container'>
-        <div className='head'>
+        <div className='head' style={{ position: 'sticky', top: '0', zIndex:'1000',}}>
         <Header toggle={() => setCollapsed(!collapsed)} />
         </div>
         <div className='side'>

@@ -1,6 +1,7 @@
 import React from 'react';
-import Dashboard from '../assets/dashboard.svg'
-import employee from '../assets/employee.svg'
+import Dashboard from '../assets/dashboard.svg';
+import employee from '../assets/employee.svg';
+import department from '../assets/department.svg';
 import './sidebar.css';
 import { useNavigate } from 'react-router-dom';
 
@@ -18,6 +19,11 @@ const Sidebar = ({ collapsed }) => {
       <div className="menu-item" onClick={() => navigate('/employee')}>
         <img src={employee} alt="employee" />
         {!collapsed && <span>Employees</span>}
+      </div>
+
+      <div className="menu-item" onClick={() => navigate('/department')}>
+        <img src={department} alt="department" />
+        {!collapsed && <span>Departments</span>}
       </div>
 
       <div className="menu-item">

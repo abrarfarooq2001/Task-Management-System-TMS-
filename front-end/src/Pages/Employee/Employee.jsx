@@ -1,8 +1,11 @@
 import React from 'react';
 import { Button, Input,Table, Avatar } from 'antd';
 import './Employee.css';
+import { useNavigate } from 'react-router-dom';
+
 
 const Employees = () => {
+  const navigate = useNavigate();
 
   const columns = [
     {
@@ -75,7 +78,7 @@ const Employees = () => {
       <div className='em-header'>
 
         <Input className="search-input" placeholder="Search By employee ID" />
-        <Button className='add-btn'>Add New Employee</Button>
+        <Button className='add-btn' onClick={() => navigate('/employee-form')} >Add New Employee</Button>
 
       </div>
 
