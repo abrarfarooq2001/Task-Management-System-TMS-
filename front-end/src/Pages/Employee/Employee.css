@@ -23,6 +23,18 @@
   padding: 0 20px;
   border-radius: 6px;
   font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #2e3a37; /* slightly lighter */
+  transform: translateY(-2px); /* lift effect */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.add-btn:active {
+  transform: scale(0.97);
 }
 
 .employee-table {
@@ -36,48 +48,3 @@
   gap: 8px;
 }
 
-/* Button Styles
-.view-btn {
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-}
-
-.edit-btn {
-  background-color: #2ecc71;
-  color: #fff;
-  border: none;
-}
-
-.salary-btn {
-  background-color: #f1c40f;
-  color: #000;
-  border: none;
-}
-
-.leave-btn {
-  background-color: #e74c3c;
-  color: #fff;
-  border: none;
-} */
-
-/* Hover Effects */
-/* .view-btn:hover {
-  background-color: #2980b9 !important;
-  color: #fff !important;
-}
-
-.edit-btn:hover {
-  background-color: #27ae60 !important;
-  color: #fff !important;
-}
-
-.salary-btn:hover {
-  background-color: #d4ac0d !important;
-  color: #000 !important;
-}
-
-.leave-btn:hover {
-  background-color: #c0392b !important;
-  color: #fff !important;
-} */
