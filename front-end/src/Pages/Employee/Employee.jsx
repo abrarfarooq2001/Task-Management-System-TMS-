@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Input,Table, Avatar } from 'antd';
+import { Button, Input,Table } from 'antd';
 import './Employee.css';
 import { useNavigate } from 'react-router-dom';
 
@@ -11,11 +11,6 @@ const Employees = () => {
     {
       title: "S No",
       dataIndex: "key",
-    },
-    {
-      title: "Image",
-      dataIndex: "image",
-      render: (img) => <Avatar src={img} size={40} />,
     },
     {
       title: "Name",
@@ -45,28 +40,24 @@ const Employees = () => {
   const data = [
     {
       key: "1",
-      image: "https://i.pravatar.cc/40?img=1",
       name: "Yousaf",
       dob: "2/13/2007",
       department: "Database",
     },
     {
       key: "2",
-      image: "https://i.pravatar.cc/40?img=2",
       name: "Asif",
       dob: "6/29/2022",
       department: "Database",
     },
     {
       key: "3",
-      image: "https://i.pravatar.cc/40?img=3",
       name: "Khalil",
       dob: "6/15/2021",
       department: "Database",
     },
     {
       key: "4",
-      image: "https://i.pravatar.cc/40?img=4",
       name: "Latif",
       dob: "6/9/2020",
       department: "IT",
